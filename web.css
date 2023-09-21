@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+
+    
+.nav1{
+    padding: 15px;
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    border:2px solid rgb(5, 16, 29);
+    border-radius: 5px;
+    background-color: rgb(104, 161, 211);
+}
+
+.centernav a,.rightnav a{
+margin-right: 60px;    
+}
+
+.left-section{
+    display: flex;
+}
+.cont-c{
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+
+}
+.cont1{
+ 
+    background-color:aliceblue;
+    width: 200px;
+ 
+}
+.cont1 a{
+    margin-top: 10px;
+}
+.cont2{
+    border: 2px solid black;
+    position: fixed;
+    right: 0;
+    top: 70px;
+    width: 150px;
+    background-color: aliceblue;
+    height: 100px;
+}
+#hide{
+    border: 2px solid black;
+    position: fixed;
+    right: 0;
+    top: 180px;
+    width:auto;
+    background-color: rgb(0, 120, 72);
+    
+}
+#hide1{
+    position: absolute;
+    top: 330px;
+}
+.left-section{
+    background-color: rgb(185, 198, 209);
+}
+.images{
+    display: flex;
+}
+.images img{
+   
+    width: 170px;
+    height: 300px;
+    padding: 5px;
+    object-fit: cover;
+}
+#search{
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+}
+#search:hover{
+    background: rgb(164, 164, 244);
+}
+
+
+
+
+
+@media(max-width:807px){
+    .cont-c{
+        height: auto;
+        
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: auto;
+    
+    } 
+    .centernav a,.rightnav a{
+        margin-right: 10px;    
+        }
+   
+
+    .cont1 a{
+        margin-top: 10px;
+    }
+    .cont2{
+        border: 2px solid black;
+        position: fixed;
+        right: 0;
+        top: 70px;
+        width: 150px;
+        background-color: aliceblue;
+        height: 200spx;
+    }
+    #hide{
+        border: 2px solid black;
+        
+        right: 0;
+        top: 180px;
+        width:auto;
+        background-color: rgb(0, 120, 72);
+        
+    }
+    .left-section{
+        background-color: rgb(185, 198, 209);
+    }
+    .images{
+        flex-direction: column;
+
+    }
+    .images img{
+        width: 400px;
+    }
+    #search{
+        width: 400px;
+        height: 30px;
+    }
+  
+    @media(min-width:891px){
+    
+        #nav{
+            padding: 30px;
+        }
+        .cont-c{
+            width: 400px;
+            align-items: center;
+        }
+       
+    }
+    }
+    @media(max-width:890px){
+        
+        .centernav a,.rightnav a{
+            margin-right: 20px;    
+            }
+}
+
+@media(max-width:630px){
+    .cont-c{
+        width: 400px;
+    }
+ 
+    .centernav a,.rightnav a{
+        margin-right: 10px;    
+        }
+        .images{
+            flex-direction: column;
+        }   
+        .images img{
+        width: 300px;
+    }
+       .cont1{
+        width: 120px;
+       }
+       #search{
+        width: 200px;
+       }@media(max-width:420px){
+        #nav{
+         padding:25px ;
+         flex-direction: column;
+         height: 80px;
+         }
+         
+         .images img{
+             /* width: 200px; */
+             height: auto;
+             width: 200px;
+         }
+     
+         .centernav{
+          margin-top: 5px;
+             
+         }
+      .rightnav{
+      margin-left: 150px;
+      margin-top: -23px;
+         } 
+         .leftvav{
+             margin-left: 0px;
+             padding-left:  0px;
+             padding-top: 0;
+         }    
+         #nav{
+             padding: 10px;
+         }  
+         
+        
+         
+          
+         .images{
+             flex-direction: column;
+             
+            
+         }
+        
+            
+     
+     }
+     @media(max-width:287px){
+        
+        .centernav a,.rightnav a{
+        margin-right: 5px;    
+        }
+     .left-section.cont1{
+        
+        width: 300px;
+     }
+     
+       
+    
+   
+     
+     
+    }
+}
